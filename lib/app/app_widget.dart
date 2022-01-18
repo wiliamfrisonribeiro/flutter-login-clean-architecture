@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart ';
+import 'package:login_google/app/app_theme.dart';
 
 class AppWidget extends StatelessWidget {
   const AppWidget({ Key? key }) : super(key: key);
@@ -6,7 +7,7 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(primaryColor: Color(0xFF239FCB)),
+      theme: ThemeData(primaryColor: AppTheme.appColor),
     );
   }
 }
